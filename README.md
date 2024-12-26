@@ -2,8 +2,7 @@
 
 we are going to learn and understand the Context API.
 <br/>
-The context API is use to avoid the Prop drilling issue. there are lots of data which we have to pass in various components. this we can do with passing prop. but as the project grows it became very complicated because we are passing data in such components that dont need the data.
-\*\* So To directly
+The context API is use to avoid the Prop drilling issue. there are lots of data which we have to pass in various components. this we can do with passing prop. but as the project grows it becomes very complicated because we are passing data in such components that dont need the data.
 <br>
 
 ## A simple four step trick 🌟
