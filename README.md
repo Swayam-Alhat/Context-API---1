@@ -20,7 +20,7 @@ First see the files and folder so that you will get the idea of project.
 
 ## First step
 
-Make a file in under components folder. name the file UserContext or GlobalContext. in this project there is file name "UserContext.js".
+Create a file under components folder. name the file UserContext or GlobalContext. in this project there is file name "UserContext.js".
 
 the file contains the follwing the code.
 
@@ -30,13 +30,13 @@ const UserContext = React.createContext();
 export default UserContext;
 ```
 
-imagine we build a box ( _means the context where data is going to stored_ ) and box name is UserContext. this box is created using the hook createContext();
+imagine we build a box ( _means the context where data is going to stored_ ) and name of box is UserContext. this box is created using the hook createContext();
 <br/>
-Through this box the data is going to send to perticular component.
+Through this box the data is going to send to particular component.
 
 ## Second step
 
-Making a another file which is named as Provider. In this case, the file name is "ContextProvider.jsx".
+create a another file which is named as Provider. In this case, the file name is "ContextProvider.jsx".
 
 <hr>
 This file contains the following code.
